@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap&#39');
+
+#root {
+  --cor-primaria: #5ba9c5;
+  --input-backgroud: rgb(209, 194, 194);
+  --branco-suave: rgb(241, 241, 241);
+  --preto: black;
+  --cinza:grey;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif; 
+ font-optical-sizing: auto; 
+ font-weight: normal; 
+ font-style: normal;
+}
+
