@@ -1,4 +1,4 @@
-.formSection {
+.form-section {
     width: 35%;
     height: 50vh;
 
@@ -6,16 +6,16 @@
 
     margin: auto auto;
     border-radius: 5px;
-
 }
 
-.formSection h3 {
+.form-section h3 {
     color: var(--branco-suave);
     text-align: center;
     font-size: 2rem;
+    margin: 5% 0;
 }
 
-.form-login{
+.form-login {
     display: flex;
     flex-direction: column;
 }
@@ -42,23 +42,22 @@
     border: none;
     border-radius: 5px;
 
-    background-color: var(--branco-suave);
+    background-color: var(--input-bg);
 }
 
-    .input-button-login {
-        width: 30%;
-        height: 7vh;
+.input-button-login {
+    width: 30%;
+    height: 7vh;
 
-        font-size: 1.3rem;
-        font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: bold;
 
-        background-color: var(--branco-suave);
-        color: var(--cor-primaria);
+    background-color: var(--input-bg);
+    color: var(--cor-primaria);
 
-        border: none;
-        border-radius: 5px;
+    border: none;
+    border-radius: 5px;
 
-        margin: auto auto;
-        margin-top: 7%;
-    }
-
+    margin: auto auto;
+    margin-top: 7%;
+}

@@ -1,12 +1,10 @@
-import './App.css'
-import PHome from './pages/PHome/PHome'
-import PLogin from './pages/PLogin/PLogin'
+import './App.css';
+import AppRoutes from './routes'; // importa o componente AppRoutes
 
 function App() {
-
   return (
     <>
-      <PLogin/>
+      <AppRoutes />
     </>
   )
 }

@@ -7,7 +7,7 @@
 
     color: var(--cor-primaria);
 
-    margin: 5% 0;
+    margin: 10% 0;
 }
 
 .principal p:last-child {
@@ -15,4 +15,3 @@
 
     color: var(--cor-primaria);
 }
-

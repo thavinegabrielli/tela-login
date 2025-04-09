@@ -5,18 +5,19 @@
     background-color: var(--cor-primaria);
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.cabecalho img {
+.imgLogo,
+.imgLogo img {
     height: 100%;
 }
 
 .cabecalho a {
-    color:var(--branco-suave);
+    color: var(--branco-suave);
     margin-right: 5%;
 
     font-size: 1.5rem;
     text-decoration: none;
-  }
+}
